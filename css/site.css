@@ -1,0 +1,108 @@
+
+/* classnames - for creating classes that can be applied to multiple elements */
+/*  id - */
+
+/* to select classnames use a period ' . ' */
+/* to select id's use a hastag ' # '*/
+
+header{
+    padding: 18px; 
+    background-color:  cadetblue;
+    border-radius: 12px;
+}
+
+
+
+.question_parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.under_letters
+ {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+    p {
+        border: 3px solid black;
+        width: 158px;
+        border-radius: 60px;
+    }
+    
+ }
+
+#question_container
+{
+    display: grid;
+    grid-template-rows: 2;
+
+
+#question_tag{
+
+
+
+    background-color: darkred;
+    padding: 12px;
+    border-radius: 40px;
+    
+    
+    text-align: center;
+}
+}
+
+
+.button_container{
+
+    margin-top: 55px;
+    padding: 12px; 
+    
+    background-color: rgb(215, 152, 34);
+    border-radius: 60px;
+    
+    
+    
+    
+    }
+    
+
+#trivia_game{
+
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(244, 36, 78);
+
+}
+
+
+
+footer{
+    
+    margin-top: 50px;
+
+/* p {
+color: orange
+} */
+border-radius: 20px;
+text-align: center;
+
+
+#footer-title {  
+    color: ivory;
+}
+
+p{
+    color: rgba(0, 0, 0, 0.792);
+    
+    font-style: italic;
+}
+
+
+    
+    background-color: rgb(107, 105, 105);
+
+
+}
