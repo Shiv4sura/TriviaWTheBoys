@@ -1,0 +1,21 @@
+{
+  "name": "triviaweb",
+  "version": "1.0.1",
+  "description": "Trivia game that can communicate with an API, utilizes Google fonts ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "TriviaWTheBoys"
+  },
+  "keywords": [
+    "Banana"
+  ],
+  "author": "Kalel Colon & Jack Regan",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^24.0.0"
+  }
+}
