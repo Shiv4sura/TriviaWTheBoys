@@ -1,27 +1,21 @@
 
 
+const APIurl = "https://opentdb.com/api.php?amount=10";
 
 
 
-const BASE_API_URL = 'https://opentdb.com/api.php?amount=10&encode=url3986';
-
-const questions = [];
-const score = 0;
-
-
-
-function getQuestions() {
-    fetch(BASE_API_URL).then(response => response.json()).then(data => {
-        questions = data.results;
-        console.log(questions)
-
+function getQuestions () {
+    fetch(APIurl).then(response => response.json()).then(data => {
+        console.log(data.results)
     })
 }
 
+// getQuestions();
 
-
-getQuestions()
-
+const answer_1 = document.getElementById("answer_1");
+const answer_2 = document.getElementById("answer_2");
+const answer_3 = document.getElementById("answer_3");
+const answer_4 = document.getElementById("answer_4");
 
 
 
