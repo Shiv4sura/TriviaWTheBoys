@@ -5,12 +5,56 @@
 /* to select classnames use a period ' . ' */
 /* to select id's use a hastag ' # '*/
 
-header{
+.header_container {
     padding: 18px; 
     background-color:  cadetblue;
     border-radius: 12px;
+
 }
 
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+#the_one_and_only {
+    color: white !important;
+    font-size:15px;
+    position: relative;
+    top: 20px
+}
+
+
+#title-subtitle {
+    color: white;
+    font-size: 15px;
+}
+
+
+
+
+
+#score {
+    font-family: "Press Start 2P", system-ui;
+    color: white;
+}
+
+#trivia_game  {
+    margin-top: 20px;
+    line-height: 90px;
+    font-size: 90px;
+}
+
+.questionText {
+    background-color: gray;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.4)
+}
 
 
 .question_parent {
@@ -41,31 +85,54 @@ header{
     grid-template-rows: 2;
     background-color: 'black'
 
-
-
-
-
-#question_tag{
-    background-color: darkred;
-    padding: 12px;
-    border-radius: 40px;
-    
-    
-    text-align: center;
-}
 }
 
 
-.button_container{
-    margin-top: 55px;
+
+#giveQuestion {
+    background-color: lightblue;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    align-self: center;
+    
+}
+
+
+
+.button-wrapper {
+padding: 10px;
+padding-right: 30px;
+padding-left: 30px;
+border-radius: 25px;
+border: none;
+margin: 20px
+}
+
+
+#button-container {
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 10px
+}
+
+
+#button_container{
+    margin-top: 25px;
     padding: 12px; 
-    background-color: rgb(215, 152, 34);
-    border-radius: 60px;
-    
-    
-    
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
     }
+
+
+
+
     
 
 #trivia_game{
